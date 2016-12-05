@@ -1,0 +1,95 @@
+<header id="mainHeader">
+  <div class="container">
+
+    <div id="hamburger">
+      <a href="#">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </a>
+    </div>
+
+    <div class="brand">
+      <img src="images/inside-cult-logo.png" alt="" />
+    </div>
+
+    <div class="menu">
+
+      <nav id="mainMenu">
+        <ul>
+          <li><a href="#" class="current">HOME</a></li>
+          <li><a href="#">GUIDA</a></li>
+          <li><a href="#">LISTA</a></li>
+        </ul>
+      </nav>
+
+      <nav id="menuLogin">
+        <ul>
+          <li class="accedi"><a href="#">ACCEDI</a></li>
+          <li><a href="#">REGISTRATI</a></li>
+        </ul>
+      </nav>
+
+      <div class="main_search">
+
+        <div class="search fright">
+          <a id="icon" href="#" ><!--s: search-->
+           <i class="icon fa fa-search fa-stack-1 x"></i>
+          </a>
+        </div> <!--e: search-->
+        <div id="search_bar">
+            <input id="bar_search" type="text"  placeholder="Cerca" >
+          </div>
+      </div>
+
+      </div>
+
+      <div class="resNav" id="responsiveNav">
+        <nav id="mainMenuRes">
+          <ul>
+            <li><a href="#" class="current">HOME</a></li>
+            <li><a href="#">GUIDA</a></li>
+            <li><a href="#">LISTA</a></li>
+          </ul>
+        </nav>
+        <nav id="menuLoginRes">
+          <ul>
+            <li class="accedi"><a href="#">ACCEDI</a></li>
+            <li><a href="#">REGISTRATI</a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <div id="Id01" class="modal">
+        <form class="modal-content animate" id="form">
+          <div class="imagecontainer">
+            <a href="#"><i class="fa fa-times close fa-2x" aria-hidden="true"></i></a>
+            <img src="images/inside-cult-logo.png" alt="logo" class="avatar" />
+          </div>
+          <div class="container_modal">
+              <label class="lab"><b>Username</b></label>
+              <input id="uname" class="users"type="tetx" name="uname" placeholder="Enter Username" minlength="2" required>
+
+              <label class="lab"><b>Password</b></label>
+              <input id="psw" class="users" type="password" name="psw" placeholder="Enter Password" minlength="8" required>
+
+              <input type="submit" id="login" value="Invia"/>
+              <div class="container_rem">
+                <p class="remember_me">
+                  <label class="remember">
+                    <input type="checkbox" name="remember_me" id="remember_me">
+                    Remember on this computer
+                  </label>
+                  <div class="col"><a href="#" title="Recuperar Password">Forgot Password?</a></div>
+                </p>
+            </div>
+              </div>
+          </div>
+        </form>
+
+    </div>
+
+  </div>
+
+</header>

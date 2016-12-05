@@ -1,0 +1,18 @@
+<div id="mainGenre">
+  <h1>Generi Film</h1>
+
+<div id="containerGenre">
+  <ul>
+    <% genres.forEach(function(genre) { %>
+    <li>
+      <img src="<%= genre.image %>" alt="<%= genre.name %>" />
+      <a href="#">
+        <div class="genreBack">
+          <span><%= genre.name %></span>
+        </div>
+      </a>
+    </li>
+    <% }); %>
+  </ul>
+</div>
+</div>
